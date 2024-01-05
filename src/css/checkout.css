@@ -1,0 +1,117 @@
+.checkout-main {
+    padding: 0 7%;
+}
+
+.wrapper {
+    gap: 20px;
+}
+
+.wrapper-left {
+    width: 55%;
+}
+
+.wrapper-right {
+    width: 45%;
+}
+
+table, tr, th, td {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-collapse: collapse;
+}
+
+td {
+    padding: 8px;
+    vertical-align: top;
+}
+
+table {
+    width: 100%;
+}
+
+.table-checkout thead{
+    height: 30px;
+    text-align: center;
+    background-color: #ddd;
+}
+
+.table-checkout thead th {
+    border: none;
+}
+
+th:first-child {
+    width: 25%;
+}
+
+th:nth-child(2) {
+    width: 35%;
+}
+
+th:nth-child(3) {
+    width: 20%;
+}
+
+th:nth-child(4) {
+    width: 20%;
+}
+
+tbody td:nth-child(3),
+tbody td:last-child {
+    vertical-align: middle;
+    text-align: center;
+}
+
+p {
+    margin: 0;
+}
+
+
+.product-checkout-title {
+    display: -webkit-box;
+    display: box;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+    box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 1.6;
+    font-size: 0.9rem;
+}
+
+.number-price,
+.quantity {
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+}
+
+.checkout-info-wrapper,
+.email,
+.email .input-email,
+select, textarea,
+.btn-submit button {
+    width: 100%;
+}
+
+textarea {
+    height: 120px;
+    resize: none;
+}
+
+.name-phone, .address {
+    gap: 15px;
+}
+
+.input-phone,
+.input-name {
+    width: 50%;
+}
+
+input,
+select,
+textarea {
+    border-radius: 5px;
+    border: 1px solid transparent;
+    background-color: #ddd;
+    padding: 5px 10px;
+    outline: none;
+}

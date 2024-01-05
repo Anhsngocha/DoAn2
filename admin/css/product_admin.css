@@ -1,0 +1,84 @@
+table, tr, td {
+    border-collapse: collapse;
+    border: 1px solid rgba(0, 0, 0, 0.54);
+}
+
+thead {
+    text-align: center;
+    color: #fff;
+    height: 40px;
+    vertical-align: middle;
+    background-color: #092635;
+}
+
+tbody tr {
+    padding: 10px 0;
+}
+
+
+td:not(:nth-child(3)) {
+    text-align: center;
+}
+
+td:nth-child(3) {
+    padding-left: 10px;
+}
+
+.button-group button {
+    border: 1px solid transparent;
+    border-radius: 0.375rem;
+    padding: 4px 8px;
+}
+
+.button-update {
+    background-color: #1C82AD;
+}
+
+.button-delete {
+    background-color: #F15A59;
+}
+
+.pagination {
+    background-color: transparent;
+}
+
+.custom-modal .modal-dialog {
+    width: 60%;
+    max-width: 60%;
+}
+
+.modal input,
+textarea {
+    background-color: #ddd;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    outline: none;
+    padding: 5px 8px;
+    color: #000;
+}
+
+.modal-body {
+    gap: 10px;
+}
+
+.modal-left,
+.modal-right {
+    width: 50%;
+}
+
+
+.modal-left input,
+.modal-right input,
+.modal-right textarea {
+    width: 90%;
+}
+
+textarea {
+    resize: none;
+    height: 105px;
+}
+
+.modal label {
+    display: block;
+    padding-left: 4px;
+}

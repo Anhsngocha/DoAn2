@@ -1,0 +1,136 @@
+
+/* Layout for admin dashboard skeleton */
+.wrapper {
+    align-items: stretch;
+    display: flex;
+    width: 100%;
+}
+
+#sidebar {
+    max-width: 264px;
+    min-width: 264px;
+    background: var(--bs-dark);
+    transition: all 0.35s ease-in-out;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    min-width: 0;
+    overflow: hidden;
+    transition: all 0.35s ease-in-out;
+    width: 100%;
+    background: #B9B4C7;
+    color: #000;
+}
+
+.fa-bars {
+    color: #000;
+    font-size: 1.2rem;
+}
+
+.sidebar-item-dropdown:hover {
+    background-color: #818FB4;
+    transition: all 0.3s;
+}
+
+/* Sidebar Elements Style */
+
+.sidebar-logo {
+    padding: 1.15rem;
+}
+
+.sidebar-logo a {
+    color: #e9ecef;
+    font-size: 1.15rem;
+    font-weight: 600;
+}
+
+.sidebar-nav {
+    flex-grow: 1;
+    list-style: none;
+    margin-bottom: 0;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.sidebar-header {
+    color: #e9ecef;
+    font-size: .75rem;
+    padding: 1.5rem 1.5rem .375rem;
+}
+
+a.sidebar-link {
+    padding: .625rem 1.625rem;
+    color: #e9ecef;
+    position: relative;
+    display: block;
+    font-size: 0.875rem;
+}
+
+.fa-chevron-up {
+    transition: all .2s ease-out;
+}
+
+.sidebar-link.collapsed .fa-chevron-up {
+    transform: rotate(-180deg);
+}
+
+.avatar {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.navbar-expand .navbar-nav {
+    margin-left: auto;
+}
+
+.content {
+    flex: 1;
+    max-width: 100vw;
+    width: 100vw;
+}
+
+@media (min-width:768px) {
+    .content {
+        max-width: auto;
+        width: auto;
+    }
+}
+
+.card {
+    box-shadow: 0 0 .875rem 0 rgba(34, 46, 60, .05);
+    margin-bottom: 24px;
+}
+
+.illustration {
+    background-color: var(--bs-primary-bg-subtle);
+    color: var(--bs-emphasis-color);
+}
+
+.illustration-img {
+    max-width: 150px;
+    width: 100%;
+}
+
+/* Sidebar Toggle */
+
+#sidebar.collapsed {
+    margin-left: -264px;
+}
+
+.piechart {
+    width: 50%;
+    height: 300px;
+}
+
+#columnchart_material {
+    width: 50%;
+    height: 300px;
+}
+
+footer span {
+    font-size: 0.8rem;
+}

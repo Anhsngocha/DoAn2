@@ -1,0 +1,51 @@
+.add-product-box {
+    padding: 0 7% 0 0;
+    gap: 20px;
+}
+
+label {
+    display: block;
+}
+
+.add-product-box .left,
+.add-product-box .right {
+    width: 50%;
+}
+
+.left input,
+.right input {
+    width: 70%;
+    padding: 8px 15px;
+    background-color: #ddd;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    outline: none;
+    color: #000;
+}
+
+.description {
+    padding: 0 7% 0 0 ;
+}
+
+.description textarea{
+    width: 85.3%;
+    padding: 8px 15px;
+    background-color: #ddd;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    outline: none;
+    color: #000;
+    resize: none;
+    height: 150px;
+}
+
+.button-group {
+    padding: 0 21% 0 0;
+}
+
+.button-add {
+    padding: 5px 20px;
+    background-color: #4477CE;
+    border-radius: 5px;
+    border: 1px solid transparent;
+}

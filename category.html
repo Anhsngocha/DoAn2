@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-5.3.2-dist/css/bootstrap.min.css">
+    <script src="bootstrap-5.3.2-dist/js/bootstrap.min.js"></script>
+    <script src="bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/category.css">
+
+    <!-- gg fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800&family=Playfair+Display:wght@400;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/9949f00df5.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="main-navbar shadow-sm sticky-top">
+        <div class="top-navbar navbar navbar-expand bg-dark">
+            <div class="container">
+                <div class="row w-100">
+                    <div class="col-lg-3 text-center">
+                        <i class="fa-solid fa-envelope"></i>
+                        <a href="">hanaSneaker@gmail.com</a>
+                    </div>
+                    <div class="phone-header col-lg-6 text-center">
+                        <i class="fa-solid fa-phone"></i>
+                        0987.654.321
+                    </div>
+                    <div class="user-action col-lg-3 d-flex gap-3 text-end">
+                        <div class="col-6">
+                            <a href="signup.html">Đăng ký</a>
+                        </div>
+                        <div class="">
+                            <a href="login.html">Đăng nhập</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="middle-navbar">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-2 my-auto d-none d-sm-none d-md-block d-lg-block">
+                        <a href="index.html" class="w-100 h-100">
+                            <img src="./src/img/logo-removebg-preview.png" width="90" alt="">
+                        </a>
+                    </div>
+                    <div class="col-md-5">
+                        <form role="search">
+                            <div class="input-group">
+                                <input type="search" placeholder="Tìm kiếm sản phẩm..." class="form-control" />
+                                <button class="btn bg-dark">
+                                    <i class="fa fa-search search-icon"></i>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-md-5 my-auto">
+                        <ul class="nav justify-content-end">
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="shopping_cart.html">
+                                    <i class="fa fa-shopping-cart"></i> Giỏ hàng (<span>0</span>)
+                                </a>
+                            </li>
+                            <li class="nav-item dropdown user-account">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class="fa fa-user"></i> Username
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#" style="color: #000;"><i class="fa fa-user"></i> Profile</a></li>
+
+                                    <li><a class="dropdown-item" href="#" style="color: #000;"><i class="fa fa-sign-out"></i> Logout</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-lg bottom-navbar">
+            <div class="container-fluid">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav navbar-light">
+                        <li class="nav-item"><a class="nav-link" href="#">Trang chủ</a></li>
+                        <li class="nav-item dmenu dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+                                onclick="return false">
+                                Nam
+                            </a>
+                            <div class="dropdown-menu sm-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="category_nike.html">Nike</a>
+                                <a class="dropdown-item" href="#">Adidas</a>
+                                <a class="dropdown-item" href="#">Puma</a>
+                                <a class="dropdown-item" href="#">Converse</a>
+                                <a class="dropdown-item" href="#">Gucci</a>
+                                <a class="dropdown-item" href="#">Vans</a>
+                            </div>
+                        </li>
+
+                        <li class="nav-item dmenu dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+                                onclick="return false">
+                                Nữ
+                            </a>
+                            <div class="dropdown-menu sm-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Nike</a>
+                                <a class="dropdown-item" href="#">Adidas</a>
+                                <a class="dropdown-item" href="#">Puma</a>
+                                <a class="dropdown-item" href="#">Converse</a>
+                                <a class="dropdown-item" href="#">Gucci</a>
+                                <a class="dropdown-item" href="#">Vans</a>
+                            </div>
+                        </li>
+                        <!--========-->
+                        <li class="nav-item dropdown megamenu-li dmenu">
+                            <a class="nav-link dropdown-toggle" href="" id="dropdown01" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">Trẻ em</a>
+                                <div class="dropdown-menu sm-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="#">Nike</a>
+                                    <a class="dropdown-item" href="#">Adidas</a>
+                                    <a class="dropdown-item" href="#">Puma</a>
+                                    <a class="dropdown-item" href="#">Converse</a>
+                                    <a class="dropdown-item" href="#">Gucci</a>
+                                    <a class="dropdown-item" href="#">Vans</a>
+                                </div>
+                        </li>
+                        <!--=========-->
+                        <li class="nav-item"><a class="nav-link" href="#">Hướng dẫn chọn giày</a></li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <div class="container-fluid main">
+        <div class="row d-flex justify-content-between">
+            <div class="col-lg-3 mb-4">
+                <div class="card">
+                    <div class="filter-group">
+                        <div class="card-header">
+                            <a href="#collapse-type" data-bs-toggle="collapse" role="button"
+                                data-bs-target="#collapse-type" aria-expanded="false" aria-controls="collapse-type"
+                                class="d-flex justify-content-between align-items-center">
+                                <span>Theo danh mục</span>
+                                <i class="icon-control fa-solid fa-caret-down"></i>
+                            </a>
+                        </div>
+                        <div class="filter-content collapse show" id="collapse-type">
+                            <div class="card-body">
+                                <div class="checkbox-filter-item mb-3 d-flex align-items-center gap-2">
+                                    <input type="checkbox">
+                                    <span>Giày thể thao</span>
+                                </div>
+                                <div class="checkbox-filter-item mb-3 d-flex align-items-center gap-2">
+                                    <input type="checkbox">
+                                    <span>Giày sneaker</span>
+                                </div>
+                                <div class="checkbox-filter-item mb-3 d-flex align-items-center gap-2">
+                                    <input type="checkbox">
+                                    <span>Giày chạy bộ</span>
+                                </div>
+                                <div class="checkbox-filter-item mb-3 d-flex align-items-center gap-2">
+                                    <input type="checkbox">
+                                    <span>Giày bóng rổ</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="filter-group">
+                        <div class="card-header">
+                            <a href="#collapse-type" data-bs-toggle="collapse" role="button"
+                                data-bs-target="#collapse-type" aria-expanded="false" aria-controls="collapse-type"
+                                class="d-flex justify-content-between align-items-center">
+                                <span>Theo giới tính</span>
+                                <i class="icon-control fa-solid fa-caret-down"></i>
+                            </a>
+                        </div>
+                        <div class="filter-content collapse show" id="collapse-type">
+                            <div class="card-body">
+                                <div class="checkbox-filter-item mb-3 d-flex align-items-center gap-2">
+                                    <input type="checkbox">
+                                    <span>Nam</span>
+                                </div>
+                                <div class="checkbox-filter-item mb-3 d-flex align-items-center gap-2">
+                                    <input type="checkbox">
+                                    <span>Nữ</span>
+                                </div>
+                                <div class="checkbox-filter-item mb-3 d-flex align-items-center gap-2">
+                                    <input type="checkbox">
+                                    <span>Trẻ em</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="filter-group">
+                        <div class="card-header">
+                            <a href="#collapse-type" data-bs-toggle="collapse" role="button"
+                                data-bs-target="#collapse-type" aria-expanded="false" aria-controls="collapse-type"
+                                class="d-flex justify-content-between align-items-center">
+                                <span>Khoảng giá</span>
+                                <i class="icon-control fa-solid fa-caret-down"></i>
+                            </a>
+                        </div>
+                        <div class="filter-content collapse show" id="collapse-type">
+                            <div class="card-body">
+                                <div
+                                    class="checkbox-filter-item mb-3 d-flex align-items-center justify-content-between">
+                                    <input type="text" placeholder="đ Từ">
+                                    <div class="line"></div>
+                                    <input type="text" placeholder="đ Đến">
+                                </div>
+                                <button class="btn-filter">Áp dụng</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="filter-group">
+                        <div class="card-header">
+                            <a href="#collapse-type" data-bs-toggle="collapse" role="button"
+                                data-bs-target="#collapse-type" aria-expanded="false" aria-controls="collapse-type"
+                                class="d-flex justify-content-between align-items-center">
+                                <span>Màu sắc</span>
+                                <i class="icon-control fa-solid fa-caret-down"></i>
+                            </a>
+                        </div>
+                        <div class="filter-content collapse show" id="collapse-type">
+                            <div class="card-body">
+                                <div class="checkbox-filter-item mb-3 d-flex align-items-center gap-2">
+                                    <button class="black-color" style="background-color: #000;"></button>
+                                    <button class="blue-color" style="background-color: #4CB9E7;"></button>
+                                    <button class="green-color" style="background-color: #4F6F52;"></button>
+                                    <button class="gray-color" style="background-color: #ddd;"></button>
+                                    <button class="pink-color" style="background-color: #F875AA;"></button>
+                                    <button class="purple-color" style="background-color: #E26EE5;"></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-lg-9">
+                <div class="container product-list">
+                    <div class="row">
+                        <div class="col-3 mb-3 product-card">
+                            <div class="card">
+                                <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/7cd4c8ff-8671-4a41-a511-da2492badefa/air-force-1-07-shoes-dTN9bg.png"
+                                    alt="">
+                                <div class="card-body">
+                                    <a href="#">
+                                        <h5 class="card-title">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            Ab,
+                                            voluptatem!</h5>
+                                    </a>
+
+                                    <div class="d-flex card-middle-body">
+                                        <div class="product-price">
+
+                                            <span class="price"><span class="vnd-price">đ</span>1.000.000</span>
+                                        </div>
+                                        <div class="sold-number">
+                                            <span>Đã bán 100</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-3 mb-3 product-card">
+                            <div class="card">
+                                <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/7cd4c8ff-8671-4a41-a511-da2492badefa/air-force-1-07-shoes-dTN9bg.png"
+                                    alt="">
+                                <div class="card-body">
+                                    <a href="#">
+                                        <h5 class="card-title">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            Ab,
+                                            voluptatem!</h5>
+                                    </a>
+
+                                    <div class="d-flex card-middle-body">
+                                        <div class="product-price">
+
+                                            <span class="price"><span class="vnd-price">đ</span>1.000.000</span>
+                                        </div>
+                                        <div class="sold-number">
+                                            <span>Đã bán 100</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-3 mb-3 product-card">
+                            <div class="card">
+                                <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/7cd4c8ff-8671-4a41-a511-da2492badefa/air-force-1-07-shoes-dTN9bg.png"
+                                    alt="">
+                                <div class="card-body">
+                                    <a href="#">
+                                        <h5 class="card-title">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            Ab,
+                                            voluptatem!</h5>
+                                    </a>
+
+                                    <div class="d-flex card-middle-body">
+                                        <div class="product-price">
+
+                                            <span class="price"><span class="vnd-price">đ</span>1.000.000</span>
+                                        </div>
+                                        <div class="sold-number">
+                                            <span>Đã bán 100</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-3 mb-3 product-card">
+                            <div class="card">
+                                <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/7cd4c8ff-8671-4a41-a511-da2492badefa/air-force-1-07-shoes-dTN9bg.png"
+                                    alt="">
+                                <div class="card-body">
+                                    <a href="#">
+                                        <h5 class="card-title">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            Ab,
+                                            voluptatem!</h5>
+                                    </a>
+
+                                    <div class="d-flex card-middle-body">
+                                        <div class="product-price">
+
+                                            <span class="price"><span class="vnd-price">đ</span>1.000.000</span>
+                                        </div>
+                                        <div class="sold-number">
+                                            <span>Đã bán 100</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-3 mb-3 product-card">
+                            <div class="card">
+                                <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/7cd4c8ff-8671-4a41-a511-da2492badefa/air-force-1-07-shoes-dTN9bg.png"
+                                    alt="">
+                                <div class="card-body">
+                                    <a href="#">
+                                        <h5 class="card-title">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            Ab,
+                                            voluptatem!</h5>
+                                    </a>
+
+                                    <div class="d-flex card-middle-body">
+                                        <div class="product-price">
+
+                                            <span class="price"><span class="vnd-price">đ</span>1.000.000</span>
+                                        </div>
+                                        <div class="sold-number">
+                                            <span>Đã bán 100</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-3 mb-3 product-card">
+                            <div class="card">
+                                <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/7cd4c8ff-8671-4a41-a511-da2492badefa/air-force-1-07-shoes-dTN9bg.png"
+                                    alt="">
+                                <div class="card-body">
+                                    <a href="#">
+                                        <h5 class="card-title">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            Ab,
+                                            voluptatem!</h5>
+                                    </a>
+
+                                    <div class="d-flex card-middle-body">
+                                        <div class="product-price">
+
+                                            <span class="price"><span class="vnd-price">đ</span>1.000.000</span>
+                                        </div>
+                                        <div class="sold-number">
+                                            <span>Đã bán 100</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-3 mb-3 product-card">
+                            <div class="card">
+                                <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/7cd4c8ff-8671-4a41-a511-da2492badefa/air-force-1-07-shoes-dTN9bg.png"
+                                    alt="">
+                                <div class="card-body">
+                                    <a href="#">
+                                        <h5 class="card-title">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            Ab,
+                                            voluptatem!</h5>
+                                    </a>
+
+                                    <div class="d-flex card-middle-body">
+                                        <div class="product-price">
+
+                                            <span class="price"><span class="vnd-price">đ</span>1.000.000</span>
+                                        </div>
+                                        <div class="sold-number">
+                                            <span>Đã bán 100</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-3 mb-3 product-card">
+                            <div class="card">
+                                <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/7cd4c8ff-8671-4a41-a511-da2492badefa/air-force-1-07-shoes-dTN9bg.png"
+                                    alt="">
+                                <div class="card-body">
+                                    <a href="#">
+                                        <h5 class="card-title">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            Ab,
+                                            voluptatem!</h5>
+                                    </a>
+
+                                    <div class="d-flex card-middle-body">
+                                        <div class="product-price">
+
+                                            <span class="price"><span class="vnd-price">đ</span>1.000.000</span>
+                                        </div>
+                                        <div class="sold-number">
+                                            <span>Đã bán 100</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <nav aria-label="..." class="float-end">
+                    <ul class="pagination">
+                        <li class="page-item disabled">
+                            <a class="page-link">Previous</a>
+                        </li>
+                        <li class="page-item"><a class="page-link" href="#">1</a></li>
+                        <li class="page-item active" aria-current="page">
+                            <a class="page-link" href="#">2</a>
+                        </li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item">
+                            <a class="page-link" href="#">Next</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="bg-dark text-white pt-5 pb-4">
+        <div class="container text-center">
+            <div class="row text-center text-md-start">
+                <div class="col-3 mt-3">
+                    <h5 class="text-uppercase mb-4 text-warning">Hana Sneaker</h5>
+                    <p class=""> <i class="fa-solid fa-location-dot pe-2"></i> <span>326 Phố Hiến, P. Hồng Nam, TP. Hưng
+                            Yên</span> </p>
+                    <p><i class="fa-solid fa-phone pe-2"></i>0987.654.321</p>
+                    <p><i class="fa-solid fa-clock pe-2"></i>8.00 - 22.00 T2 - CN</p>
+                </div>
+
+                <div class="col-3 mt-3">
+                    <h5 class="text-uppercase mb-4 text-warning">Về Hana Sneaker</h5>
+                    <p><a href="#">Tuyển dụng</a></p>
+                    <p><a href="#">Điều khoản & Chính sách bảo mật</a></p>
+                    <p><a href="#">Chương trình tiếp thị liên kết</a></p>
+                    <p><a href="#">Chăm sóc khách hàng</a></p>
+                </div>
+
+                <div class="col-3 mt-3">
+                    <h5 class="text-uppercase mb-4 text-warning">Thanh toán</h5>
+                    <ul class="list-payment">
+                        <li>
+                            <img src="https://down-vn.img.susercontent.com/file/d4bbea4570b93bfd5fc652ca82a262a8"
+                                alt="">
+                        </li>
+
+                        <li>
+                            <img src="https://down-vn.img.susercontent.com/file/a0a9062ebe19b45c1ae0506f16af5c16"
+                                alt="">
+                        </li>
+
+                        <li>
+                            <img src="https://down-vn.img.susercontent.com/file/38fd98e55806c3b2e4535c4e4a6c4c08"
+                                alt="">
+                        </li>
+
+                        <li>
+                            <img src="https://down-vn.img.susercontent.com/file/2c46b83d84111ddc32cfd3b5995d9281"
+                                alt="">
+                        </li>
+
+                        <li>
+                            <img src="https://down-vn.img.susercontent.com/file/5e3f0bee86058637ff23cfdf2e14ca09"
+                                alt="">
+                        </li>
+                    </ul>
+
+                    <h5 class="text-uppercase mb-4 text-warning">Đơn vị vận chuyển</h5>
+                    <ul class="list-payment">
+                        <li>
+                            <img src="https://down-vn.img.susercontent.com/file/vn-50009109-159200e3e365de418aae52b840f24185"
+                                alt="">
+                        </li>
+
+                        <li>
+                            <img src="https://down-vn.img.susercontent.com/file/d10b0ec09f0322f9201a4f3daf378ed2"
+                                alt="">
+                        </li>
+
+                        <li>
+                            <img src="https://down-vn.img.susercontent.com/file/77bf96a871418fbc21cc63dd39fb5f15"
+                                alt="">
+                        </li>
+
+                        <li>
+                            <img src="https://down-vn.img.susercontent.com/file/59270fb2f3fbb7cbc92fca3877edde3f"
+                                alt="">
+                        </li>
+
+                        <li>
+                            <img src="https://down-vn.img.susercontent.com/file/957f4eec32b963115f952835c779cd2c"
+                                alt="">
+                        </li>
+
+                        <li>
+                            <img src="https://down-vn.img.susercontent.com/file/0d349e22ca8d4337d11c9b134cf9fe63"
+                                alt="">
+                        </li>
+
+                        <li>
+                            <img src="https://down-vn.img.susercontent.com/file/3900aefbf52b1c180ba66e5ec91190e5"
+                                alt="">
+                        </li>
+
+                        <li>
+                            <img src="https://down-vn.img.susercontent.com/file/6e3be504f08f88a15a28a9a447d94d3d"
+                                alt="">
+                        </li>
+
+                        <li>
+                            <img src="https://down-vn.img.susercontent.com/file/b8348201b4611fc3315b82765d35fc63"
+                                alt="">
+                        </li>
+
+                        <li>
+                            <img src="https://down-vn.img.susercontent.com/file/0b3014da32de48c03340a4e4154328f6"
+                                alt="">
+                        </li>
+
+                        <li>
+                            <img src="https://down-vn.img.susercontent.com/file/vn-50009109-ec3ae587db6309b791b78eb8af6793fd"
+                                alt="">
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-3 mt-3">
+                    <h5 class="text-uppercase mb-4 text-warning">Liên hệ với chúng tôi</h5>
+                    <ul class="list-contact">
+                        <li><i class="fa-brands fa-facebook-f"></i></li>
+                        <li><i class="fa-brands fa-twitter"></i></li>
+                        <li><i class="fa-brands fa-youtube"></i></li>
+                        <li><i class="fa-brands fa-tiktok"></i></li>
+                    </ul>
+
+                    <div class="subcribe-letter">
+                        <h6>Đăng ký để nhận được những thông báo về sản phẩm mới nhất</h6>
+                        <div class="email-box">
+                            <input type="text" placeholder="Email...">
+                            <button>Đăng ký</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+    <script src="./src/./js/index.js"></script>
+</body>
+
+</html>

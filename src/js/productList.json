@@ -1,0 +1,114 @@
+[
+    {
+        "id": 1,
+        "name_product": "Nike Air Force 1 '07",
+        "img_product": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/b1d455eb-8447-4b51-a2b3-61db8b7a78fe/air-force-1-07-shoes-RgcF1Q.png",
+        "description": "Description of Product 1",
+        "price": "3.519.000",
+        "category": "nike"
+    },
+    {
+        "id": 2,
+        "name_product": "Nike Air Max 90 SE",
+        "img_product": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/6f4f5921-0a85-419b-8454-44a4818323ac/air-max-90-se-shoes-FQ39pC.png",
+        "description": "Description of Product 1",
+        "price": "4.109.000",
+        "category": "nike"
+    },
+    {
+        "id": 3,
+        "name_product": "Nike Full Force Low",
+        "img_product": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/9e240618-2f14-42f6-ac6c-ed57887c5af7/full-force-low-shoes-ZchLRn.png",
+        "description": "Description of Product 1",
+        "price": "2.649.000",
+        "category": "nike"
+    },
+    {
+        "id": 4,
+        "name_product": "Nike Blazer Low '77 Vintage",
+        "img_product": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/72917523-20ef-434f-9806-5067e2b1bf6a/blazer-low-77-vintage-shoes-5Gw9TZ.png",
+        "description": "Description of Product 1",
+        "price": "2.499.000",
+        "category": "nike"
+    },
+    {
+        "id": 5,
+        "name_product": "Nike Air Force 1 '07",
+        "img_product": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/3222ad95-9099-4823-a60c-ba7c8f908473/air-max-90-shoes-0MB5rJ.png",
+        "description": "Description of Product 1",
+        "price": "3.519.000",
+        "category": "nike"
+    },
+    {
+        "id": 6,
+        "name_product": "Nike Air Force 1 '07",
+        "img_product": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/048d7bfe-8b48-4f7b-92c8-9c557c152b4a/air-pegasus-89-shoes-QZqpqP.png",
+        "description": "Description of Product 1",
+        "price": "3.519.000",
+        "category": "nike"
+    },
+    {
+        "id": 7,
+        "name_product": "Nike Air Force 1 '07",
+        "img_product": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/35cd473e-b388-4de0-83f5-8a8f3287eef6/dunk-low-retro-shoes-Zc0601.png",
+        "description": "Description of Product 1",
+        "price": "3.519.000",
+        "category": "nike"
+    },
+    {
+        "id": 8,
+        "name_product": "Nike Air Force 1 '07",
+        "img_product": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/84c6e45a-77d0-450e-87a2-e3b4c4fbaa83/air-jordan-1-zoom-cmft-2-shoes-nX8Qqx.png",
+        "description": "Description of Product 1",
+        "price": "3.519.000",
+        "category": "nike"
+    },
+    {
+        "id": 9,
+        "name_product": "Nike Air Force 1 '07",
+        "img_product": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/5706ffe6-8975-46d9-a309-b406b4d720ca/air-force-1-07-lv8-shoes-hHz3rg.png",
+        "description": "Description of Product 1",
+        "price": "3.519.000",
+        "category": "nike"
+    },
+    {
+        "id": 10,
+        "name_product": "Nike Air Force 1 '07",
+        "img_product": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/195382b3-7ff3-4b51-98e6-74f1a3f9f186/jordan-nu-retro-1-low-shoes-8294mJ.png",
+        "description": "Description of Product 1",
+        "price": "3.519.000",
+        "category": "nike"
+    },
+    {
+        "id": 11,
+        "name_product": "Giày Adidas USA 84 Samba",
+        "img_product": "https://assets.adidas.com/images/w_600,f_auto,q_auto/d4f828e8d13044c484a0f3e617b1d80f_9366/Giay_Samba_Xam_IE4957_01_standard.jpg",
+        "description": "Description of Product 1",
+        "price": "1.000.000",
+        "category": "outStanding"
+    },
+    {
+        "id": 12,
+        "name_product": "Adidas GAZELLE Originals",
+        "img_product": "https://assets.adidas.com/images/w_600,f_auto,q_auto/45f7d7a43316498e973470e665ed247a_9366/GAZELLE_trang_IH2216_01_standard.jpg",
+        "description": "Description of Product 2",
+        "price": "1.240.000",
+        "category": "outStanding"
+    },
+    {
+        "id": 13,
+        "name_product": "Puma Porsche Legacy CA Pro Men's Sneakers",
+        "img_product": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_600,h_600/global/307913/01/sv01/fnd/PNA/fmt/png/Porsche-Legacy-CA-Pro-Men's-Sneakers",
+        "description": "Description of Product 2",
+        "price": "950.000",
+        "category": "outStanding"
+    },
+    {
+        "id": 14,
+        "name_product": "Giày Nike Air Zoom TR 1",
+        "img_product": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/e78460ec-8a08-4693-98c9-9a2ad2dc4762/air-jordan-xxxviii-rui-pf-basketball-shoes-2TrMDv.png",
+        "description": "Description of Product 2",
+        "price": "1.550.000",
+        "category": "outStanding"
+    }
+]

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/9949f00df5.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="./src/css/login.css">
+    <link rel="stylesheet" href="./src/css/reset.css">
+
+    <!-- gg fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800&family=Pacifico&display=swap"
+        rel="stylesheet">
+
+    <title>Đăng ký</title>
+</head>
+
+<body>
+
+    <div class="container" id="container">
+
+        <div class="form-container sign-in">
+            <form action="#" id="register-form">
+                <h1>Đăng ký</h1>
+                <div class="social-icons">
+                    <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+                <span>Hoặc sử dụng email của bạn để đăng ký</span>
+                <div class="email-signup-container" style="margin-top: 20px;">
+                    <input type="email" placeholder="Email" class="input_email_signup" onblur="checkemail_signup()">
+                    <span class="warning-email-signup" style="color: red; display: none;"></span>
+                </div>
+
+                <div class="user-signup-container">
+                    <input type="text" placeholder="Tên tài khoản" class="input_username_signup" onblur="checkuser_signup()">
+                    <span class="warning-username-signup" style="color: red; display: none;"></span>
+                </div>
+
+                <div class="pass-signup-container">
+                    <input type="password" placeholder="Mật khẩu" class="input_pass_signup" id="password" onblur="checkpass_signup()">
+                    <span class="warning-pass-signup" style="color: red; display: none;"></span>
+                    <div class="hide-password">
+                        <input type="checkbox" onclick="showPassSignup()">
+                        <span>Hiển thị mật khẩu</span>
+                    </div>
+                </div>
+    
+                
+                <button type="submit">Đăng ký</button>
+            </form>
+        </div>
+        <div class="toggle-container">
+            <div class="toggle">
+                <div class="toggle-panel toggle-right">
+                    <h1>Welcome to Ha-na Store</h1>
+                    <p>Đăng ký tài khoản để sử dụng tất cả các tính năng của Ha-na Store!</p>
+                    <p class="login-button">Bạn đã có tài khoản? <a href="login.html" class="login-button">Đăng nhập</a></p>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./src/js/login.js"></script>
+</body>
+
+</html>
